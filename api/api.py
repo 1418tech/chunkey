@@ -57,4 +57,4 @@ def open_webpage():
         return jsonify("Complete!")
     #needs work - return after error or never go
     except webbrowser.Error:
-        return jsonify("Failure - invalid website URL")
+        return jsonify("Failure invalid website URL")
