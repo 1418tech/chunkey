@@ -1,0 +1,41 @@
+.Login {
+    overflow: scroll;
+  }
+  
+  .Login-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*font-size: calc(10px + 2vmin);*/
+    color: white;
+    overflow: scroll;
+  }
+  #veggies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 20vh;
+  }
+  #bigheader{
+    margin-top: 10vh;
+  }
+  #but{
+    background-color: green;
+    border-color: green;
+}
+#or{
+  color: black;
+  font-size: 1em;
+}
+#create{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

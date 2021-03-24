@@ -1,0 +1,38 @@
+.Home {
+    overflow: scroll;
+  }
+  
+  .Home-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*font-size: calc(10px + 2vmin);*/
+    color: white;
+    overflow: scroll;
+  }
+  .main-header{
+    font-size: calc(10px + 5vmin);
+    margin-top: 10vh;
+    position: absolute;
+  }
+  .sub-header{
+    font-size: calc(10px + 2vmin);
+    margin-top: 20vh;
+    position: absolute;
+  }
+  .sub-sub-header{
+    font-size: calc(10px + 1vmin);
+    font-style: italic;
+    margin-top: 25vh;
+    position: absolute;
+  }
+  #meat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 35vh;
+  }

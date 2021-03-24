@@ -1,0 +1,29 @@
+.Documentation {
+    overflow: scroll;
+}
+.Documentation-header{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*font-size: calc(10px + 2vmin);*/
+    color: white;
+    overflow: scroll;
+}
+
+#jt{
+    align-items: left;
+    color: white;
+    background-color:#282c34;
+}
+
+#tit{
+  color: #428bca;
+}
+
+#sm{
+  font-style: italic;
+  color: yellow;
+}
+  
